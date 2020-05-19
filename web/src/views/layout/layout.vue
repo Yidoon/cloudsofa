@@ -1,8 +1,8 @@
 <template>
   <div class="layout">
     <Head></Head>
-    <Slider></Slider>
     <div class="container">
+      <Slider></Slider>
       <router-view />
     </div>
     <Footer></Footer>
@@ -29,5 +29,13 @@ export default class Layout extends Vue{
 </script>
 
 <style lang="less">
-
+.layout {
+  width: 100%;
+  height: 100vh;
+  background: #eee;
+  .container {
+    display: flex;
+    height: calc(100% - 100px);
+  }
+}
 </style>>

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Home</h1>
+    Home
   </div>
 </template>
 
@@ -11,5 +11,8 @@ export default {
 </script>
 
 <style lang="less">
-
+.home {
+  width: 100%;
+  background: green;
+}
 </style>

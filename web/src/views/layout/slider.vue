@@ -1,6 +1,6 @@
 <template>
   <div class="slider">
-    <h3>slider</h3>
+    slider
   </div>
 </template>
 
@@ -14,4 +14,9 @@ export default class Slider extends Vue {
 </script>
 
 <style scoped lang="less">
+.slider {
+  width: 300px;
+  background: yellow;
+  width: 300px;
+}
 </style>

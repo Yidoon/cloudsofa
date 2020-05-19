@@ -1,5 +1,7 @@
 <template>
-  <div class="footer"></div>
+  <div class="footer">
+    Footer
+  </div>
 </template>
 
 <script lang="ts">
@@ -11,6 +13,9 @@ export default class Footer extends Vue {
 }
 </script>
 
-<style>
-
+<style lang="less">
+.footer {
+  height: 30px;
+  background: orange;
+}
 </style>

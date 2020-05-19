@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h2>header</h2>
+    header
   </div>
 </template>
 
@@ -17,6 +17,6 @@ export default class Header extends Vue {
 .header {
   width: 100%;
   height: 70px;
-  border: 1px solid red;
+  background: pink;
 }
 </style>
